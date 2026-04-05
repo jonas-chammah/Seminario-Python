@@ -1,0 +1,6 @@
+total = 0
+precio = int(input("Ingrese el precio del producto: "))  
+while precio != 0:
+    total = total + precio
+    precio = int(input("Ingrese el precio del producto: ")) 
+print (f"El monto total por los productos registrados es de {total}")

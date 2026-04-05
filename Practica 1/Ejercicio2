@@ -1,0 +1,5 @@
+TotSegundos = int(input("ingrese una cantidad de segundos: "))
+horas = TotSegundos // 3600
+minutos = ( TotSegundos - (horas * 3600) ) // 60
+segundos = (TotSegundos - (horas * 3600) - (minutos * 60)) 
+print (f"{TotSegundos} Segundos equivale a {horas} hora/s, con {minutos} minuto/s y {segundos} segundo/s")
